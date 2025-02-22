@@ -1,0 +1,107 @@
+/*!
+Theme Name: Tech Theorem
+Theme URI: 
+Author: Koteshwar Rao M
+Author URI: httpa://koteshwarrao.in/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: tech-theorem
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Tech Theorem is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+.container{
+    max-width: 1320px;
+}
+
+body{
+  font-family: Montserrat !important;
+  font-size: 16px;
+  line-height: 25px;
+}
+.challenge-row{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: flex-end;
+    }
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+h2{
+  font-size: 32px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+h2::after{
+  width: 65px;
+  height: 3px;
+  border-radius: 4px;
+  background-color: #FA4321;
+}
+.hero-section {
+    background: url(http://localhost/techt/wp-content/uploads/2025/02/Background-image.png) no-repeat center top;
+    background-size: cover;
+    height: 550px;
+
+    padding: 50px 0;
+  }
+  .testimonial-card {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 30px;
+      box-shadow: 0 4px 40px 8px #00000012;
+  }
+  .testimonial-content h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .author-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .rider-image {
+    background: red;
+    position: relative;
+  }
+  .rider-image img {
+    max-width: 100%;
+  }
+
+  .challenge-section {
+    background-color: #fff;
+    padding: 50px 20px;
+  }
+  .challenge-title {
+	color: #d9534f;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+  }
+ .content-box{
+    background-color: #F0F2F3;
+    padding: 30px;
+ }
+ .content-box img{
+    width: 100%;
+ }
